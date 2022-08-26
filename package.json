@@ -1,0 +1,23 @@
+{
+  "name": "expressshoppinglist",
+  "version": "1.0.0",
+  "description": "Middleware and Routing practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgagne15/ExpressShoppingListPrax.git"
+  },
+  "author": "Kris Gagne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgagne15/ExpressShoppingListPrax/issues"
+  },
+  "homepage": "https://github.com/kgagne15/ExpressShoppingListPrax#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
