@@ -46,7 +46,7 @@ describe('PATCH route', function() {
     test("Patch existing item", async function() {
         const resp = await request(app).patch('/items/Pickles').send({"itemName": "pickles", "price": 2.50});
         expect(resp.statusCode).toBe(200);
-        expect(resp.body).toEqual({item: {"itemName": "pickles", "price": 2.50}})
+        expect(resp.body).toEqual({updated: {"itemName": "pickles", "price": 2.50}})
     });
     test("Patch item that doesn't exist", async function() {
         const resp = await request(app).patch('/items/Picdkles').send({"itemName": "pickles", "price": 2.50});

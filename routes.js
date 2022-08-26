@@ -29,7 +29,7 @@ router.patch('/:itemName', function(req, res) {
     } else {
         foundItem.itemName = req.body.itemName
         foundItem.price = req.body.price
-        res.json({item: foundItem})
+        res.json({updated: foundItem})
     }
 })
 
